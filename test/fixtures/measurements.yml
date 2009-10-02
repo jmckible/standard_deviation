@@ -1,8 +1,11 @@
 one:
   integer: 1
+  decimal: 1.0
   
 two:
   integer: 2
+  decimal: 2.0
   
 three:
   integer: 3
+  decimal: 3.0
