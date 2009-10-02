@@ -1,0 +1,9 @@
+= ar_std
+
+Adds standard deviation methods to ActiveRecord. sqlite does not include standard deviation methods by default, so this is designed for mysql only.
+
+== Author
+
+* ar_std was created by Jordan McKible http://jordan.mckible.com
+
+* Available on GitHub at http://github.com/jmckible/ar_std
