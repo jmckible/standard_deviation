@@ -1,9 +1,24 @@
-= ar_std
+= standard_deviation
 
 Adds standard deviation methods to ActiveRecord. sqlite does not include standard deviation methods by default, so this is designed for mysql only.
 
+== Installation
+
+  ./script/plugin install git://github.com/jmckible/standard_deviation.git
+
+
+== Usage
+
+This plugin adds two new aggregations methods to ActiveRecord: std and variance. Say you've got a measurements table with an integer column called 'integer.'
+
+  Measurement.std(:integer)
+  # => 0.8165
+  Measurement.variance(:integer)
+  # => 0.6667
+  
+
 == Author
 
-* ar_std was created by Jordan McKible http://jordan.mckible.com
+* standard_deviation was created by Jordan McKible http://jordan.mckible.com
 
-* Available on GitHub at http://github.com/jmckible/ar_std
+* Available on GitHub at http://github.com/jmckible/standard_deviation
