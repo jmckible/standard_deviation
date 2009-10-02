@@ -1,0 +1,8 @@
+one:
+  integer: 1
+  
+two:
+  integer: 2
+  
+three:
+  integer: 3
